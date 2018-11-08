@@ -1,7 +1,7 @@
 ## My C.V [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 
-You can download my C.V as a [PDF](https://raw.githubusercontent.com/trianglegirl/CV/master/resume.pdf).
+You can download my C.V as a [PDF](https://raw.githubusercontent.com/trianglegirl/CV/master/CV-Davies-Rhian.pdf).
 
 ## Credit
 
