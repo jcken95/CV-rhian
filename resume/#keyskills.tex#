@@ -1,20 +1,31 @@
-
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Interests}
+\cvsection{Key skills}
+
 %-------------------------------------------------------------------------------
 %	CONTENT
 %-------------------------------------------------------------------------------
 \begin{cvskills}
 %---------------------------------------------------------
   \cvskill
-    {Professional} % Category
-    {R programming, machine learning, data visualising, attending data science meet-ups, image processing.} % Skills
+    {R Expertise} % Category
+    {RStudio, RMarkdown, Tidyverse, Shiny} % Skills
 
 %---------------------------------------------------------
   \cvskill
-    {Personal} % Category
-    {Cycling, fell running, knitting, orchestral percussion.} % Skills
+    {Machine Learning} % Category
+    {Statistical modelling, Clustering, Classification} % Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {Communication} % Category
+    {Experienced presenter and trainer} % Skills
+
+%---------------------------------------------------------
+%  \cvskill
+%    {Languages} % Category
+%    {English, Conversational Welsh} % Skills
+
 %---------------------------------------------------------
 \end{cvskills}
