@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  30 JAN 2019 11:22
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.12)  30 JAN 2019 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,30 +864,37 @@ LaTeX Info: Redefining \nameref on input line 77.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
- (./resume/education.tex
+ (./resume/me.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 13.
+(Font)              scaled to size 10.95015pt on input line 10.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.67863pt on input line 13.
+(Font)              scaled to size 7.67863pt on input line 10.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.45398pt on input line 13.
+(Font)              scaled to size 5.45398pt on input line 10.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 13.
+(Font)              scaled to size 10.94983pt on input line 10.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.6784pt on input line 13.
+(Font)              scaled to size 7.6784pt on input line 10.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.45381pt on input line 13.
+(Font)              scaled to size 5.45381pt on input line 10.
+
+Overfull \hbox (69.03331pt too wide) in alignment at lines 10--41
+[] [] 
+ []
+
+) (./resume/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 13.
+t line 15.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 13.
-) (./resume/experience.tex) (./resume/extracurricular.tex [1
+t line 15.
+) (./resume/education.tex) [1
 
-]) (./resume/keyskills.tex
+]
+(./resume/extracurricular.tex) (./resume/keyskills.tex
 Overfull \hbox (40.77332pt too wide) in alignment at lines 10--32
 [] [] 
  []
@@ -898,17 +905,17 @@ Overfull \hbox (17.7933pt too wide) in alignment at lines 9--20
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 25376 strings out of 493007
- 460360 string characters out of 6136718
- 665847 words of memory out of 5000000
+ 25379 strings out of 493007
+ 460390 string characters out of 6136718
+ 663847 words of memory out of 5000000
  29125 multiletter control sequences out of 15000+600000
  532666 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
