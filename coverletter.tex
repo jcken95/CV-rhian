@@ -1,0 +1,110 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-skyblue}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Dr. Rhian }{Davies}
+\address{Lancaster, UK}
+\mobile{07805 871708} 
+%%% Social
+\email{thetrianglegirl@gmail.com}
+\homepage{trianglegirl.rbind.io}
+\github{trianglegirl}
+\linkedin{trianglegirl}
+%%% Optionals
+\position{Statistician {\enskip\cdotp\enskip} Data Scientist {\enskip\cdotp\enskip} STEM Communicator  {\enskip\cdotp\enskip} R Geek }
+%\position{Software Engineer{\enskip\cdotp\enskip}Security Expert}
+%\quote{``Make the change that you want to see in the world."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipient
+  {Esther Gillespie, CEO}
+  {Jumping Rivers}
+\letterdate{\today}
+\lettertitle{Job Application for Data Scientist at Jumping Rivers}
+\letteropening{Dear Esther,}
+\letterclosing{Kind Regards,}
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Dr. Rhian Davies~~~·~~~Cover Letter}
+  {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+%\cvparagraph{This job sounds awesome}
+
+I was very excited to see your data scientist position advertised. With my broad data science experience, passion for learning and love of R, I believe I can support Jumping Rivers in developing and delivering your existing courses, and providing high-quality consultancy. I admire your ethos of giving back to the community, through meet-ups and supporting conferences as it is something that I value too.
+
+\cvparagraph{How I can help Jumping Rivers}
+As a data scientist, I have worked closely with varied domain experts including physicists, psychologists, game designers and engineers. Successful projects include classifying accelerometer data and validating psychometric models for game-based assessment. I introduced my Unilever team to RMarkdown as a laboratory notebook, a practice which they have since adopted within the team, and at Arctic Shores I encouraged and supported the psychologists to develop a reproducible workflow in R. At Digital Rail I have gained experience in consultancy, creating visualisation tools in Shiny to help engineers explore the health of their fleet. I'm a confident communicator, and in my role as an RSS Statistical Ambassador, I have received media training, helped journalists communicate facts and providing consultancy for a Panorama documentary. I learn best through teaching, and have varied experience including formal University tuition, supporting R courses for industry and delivering public outreach talks.
+
+\cvparagraph{Why I want to work for Jumping Rivers}
+I would love to work for Jumping Rivers as the combination of delivering training courses and providing statistical consultancy is a truly exciting role for me. The best thing for me about being a statistician is being able to help people understand their data and this seems to be at the core of Jumping Rivers. I believe the role will challenge me to keep learning and actively develop my skills. As well as statistical knowledge, I can bring enthusiasm, a passion for learning and appetite for challenge to the Jumping Rivers team.
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
